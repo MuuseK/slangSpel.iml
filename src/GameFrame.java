@@ -6,7 +6,7 @@ public class GameFrame extends JFrame {
     this.setTitle("Snake");
     this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     this.setResizable(false);
-    this.pack(); //functie die jframe ervoor zorgt dat de componenten groot genoeg zijn.
+    this.pack(); //functie die frames afmeet naar gewenste lengte
     this.setVisible(true);
     this.setLocationRelativeTo(null);
 
